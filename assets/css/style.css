@@ -991,8 +991,8 @@ button {
 }
 .reel {
   position: relative;
-  aspect-ratio: 16 / 7;
-  min-height: 380px;
+  width: 100%;
+  height: clamp(440px, 44vw, 600px);
   overflow: hidden;
   background: var(--ink-2);
 }
@@ -1233,10 +1233,15 @@ button {
   gap: 10px;
 }
 .choice label {
+  position: relative;
   margin: 0;
 }
 .choice input {
   position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
   opacity: 0;
   pointer-events: none;
 }
