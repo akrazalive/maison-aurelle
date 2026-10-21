@@ -4,12 +4,22 @@ A clean, contemporary four-page showcase for three product lines — **rings, be
 
 **Live demo:** https://akrazalive.github.io/maison-aurelle/
 
+![Maison Aurelle — desktop and mobile](screenshots/00-cover-presentation.jpg)
+
 | Page | What it does |
 |---|---|
 | **Home** (`index.html`) | Full-screen hero with an autoplaying, slow-zoom image loop · value statement · one call-to-action → gallery |
 | **Collections** (`collections.html`) | Three clearly separated sections (Rings · Bespoke Watches · Leather Straps), sticky section tabs, lightbox with click-to-zoom, keyboard & swipe navigation, **Buy Now** on every item |
 | **About** (`about.html`) | Brand story, studio photo mosaic, autoplaying **craftsmanship highlight reel**, brand values |
 | **Contact** (`contact.html`) | Embedded enquiry form (validation + thank-you state), studio details, social links |
+
+## Screens
+
+| Collections gallery | Lightbox with zoom |
+|---|---|
+| ![Collections](screenshots/03-collections-gallery.jpg) | ![Lightbox](screenshots/04-lightbox-zoom.jpg) |
+| **About & craftsmanship reel** | **Mobile** |
+| ![About](screenshots/05-about-craftsmanship.jpg) | ![Mobile](screenshots/07-mobile-views.jpg) |
 
 ## Design
 
