@@ -1,0 +1,50 @@
+{
+  "_howToEdit": "Each collection lists its items. To add a product, copy an item block, change the text, point 'image' at a file in assets/img (add a '-sm' copy for the grid), and set 'buyUrl' to your checkout link (Shopify, Stripe Payment Link, Gumroad, Square…). No code changes needed.",
+  "collections": [
+    {
+      "id": "rings",
+      "number": "I",
+      "title": "Rings",
+      "kicker": "Fine Rings",
+      "intro": "Solitaires, halos and stacking bands — each stone hand-set at the bench and finished to a mirror polish.",
+      "items": [
+        { "name": "Nocturne Halo", "material": "18k white gold · 1.2 ct diamond", "price": "$4,850", "tag": "Signature", "image": "ring-nocturne", "alt": "Diamond halo engagement ring on black velvet", "buyUrl": "checkout.html?item=nocturne-halo" },
+        { "name": "Rosé Cushion", "material": "18k rose gold · pink sapphire", "price": "$3,200", "tag": "", "image": "ring-rose", "alt": "Rose gold ring with a cushion-cut pink sapphire and pavé halo", "buyUrl": "checkout.html?item=rose-cushion" },
+        { "name": "Fleur Sauvage", "material": "Platinum · amethyst & citrine", "price": "$5,400", "tag": "One of one", "image": "ring-fleur", "alt": "Cocktail ring with amethyst and citrine petals around a diamond centre", "buyUrl": "checkout.html?item=fleur-sauvage" },
+        { "name": "Aurora Solitaire", "material": "18k yellow gold · emerald-cut diamond", "price": "$6,900", "tag": "", "image": "ring-aurora", "alt": "Yellow gold solitaire ring with an emerald-cut diamond", "buyUrl": "checkout.html?item=aurora-solitaire" },
+        { "name": "Ember Cluster", "material": "14k gold · morganite cluster", "price": "$2,650", "tag": "New", "image": "ring-ember", "alt": "Gold cluster ring with peach morganite stones on linen", "buyUrl": "checkout.html?item=ember-cluster" },
+        { "name": "Étoile Stack", "material": "18k gold · pavé diamond trio", "price": "$3,980", "tag": "", "image": "ring-etoile", "alt": "Stack of three gold rings set with pavé diamonds", "buyUrl": "checkout.html?item=etoile-stack" }
+      ]
+    },
+    {
+      "id": "watches",
+      "number": "II",
+      "title": "Bespoke Watches",
+      "kicker": "Made to order",
+      "intro": "Swiss automatic movements in cases, dials and hands specified by you — assembled, regulated and tested in our atelier.",
+      "items": [
+        { "name": "Onyx Automatic", "material": "Steel · black sunray dial · 40 mm", "price": "$7,400", "tag": "Signature", "image": "watch-onyx", "alt": "Steel automatic watch with black dial on a steel bracelet", "buyUrl": "checkout.html?item=onyx-automatic" },
+        { "name": "Noir Field", "material": "Black PVD · luminous indices · 39 mm", "price": "$5,950", "tag": "", "image": "watch-noir", "alt": "Black field watch photographed in low light", "buyUrl": "checkout.html?item=noir-field" },
+        { "name": "Horizon GMT", "material": "Steel · blue dial · dual time", "price": "$8,200", "tag": "New", "image": "watch-horizon", "alt": "Watch resting on a rock at sunset over the sea", "buyUrl": "checkout.html?item=horizon-gmt" },
+        { "name": "Rouge Chronograph", "material": "Steel · panda dial · 42 mm", "price": "$9,100", "tag": "", "image": "watch-rouge", "alt": "Chronograph watch with white dial against a red background", "buyUrl": "checkout.html?item=rouge-chronograph" },
+        { "name": "Ébène Wood", "material": "Ebony case · sapphire crystal", "price": "$4,300", "tag": "Limited", "image": "watch-ebene", "alt": "Wooden watch on a weathered timber surface", "buyUrl": "checkout.html?item=ebene-wood" },
+        { "name": "Granite Chrono", "material": "Titanium · tachymeter bezel · 44 mm", "price": "$10,500", "tag": "", "image": "watch-granite", "alt": "Titanium chronograph among dark river stones", "buyUrl": "checkout.html?item=granite-chrono" }
+      ]
+    },
+    {
+      "id": "straps",
+      "number": "III",
+      "title": "Leather Straps",
+      "kicker": "Hand-stitched",
+      "intro": "Full-grain leathers cut, edge-painted and saddle-stitched by hand — sized to your wrist and your watch.",
+      "items": [
+        { "name": "Riviera Blue Calf", "material": "Italian calfskin · 20 mm", "price": "$240", "tag": "Signature", "image": "strap-riviera", "alt": "Watch with a blue calfskin strap on white plaster", "buyUrl": "checkout.html?item=riviera-blue" },
+        { "name": "Sentier NATO", "material": "Waxed canvas · leather keepers", "price": "$180", "tag": "", "image": "strap-sentier", "alt": "Watch on a dark green NATO strap on a wooden desk", "buyUrl": "checkout.html?item=sentier-nato" },
+        { "name": "Cognac Vintage", "material": "Horween leather · 22 mm", "price": "$260", "tag": "New", "image": "strap-cognac", "alt": "Watch with a cognac leather strap on a mountain rock", "buyUrl": "checkout.html?item=cognac-vintage" },
+        { "name": "Taupe Suede", "material": "French suede · quick-release", "price": "$220", "tag": "", "image": "strap-taupe", "alt": "Hand holding a minimalist watch on a taupe suede strap", "buyUrl": "checkout.html?item=taupe-suede" },
+        { "name": "Midnight Grain", "material": "Navy pebbled calf · 20 mm", "price": "$250", "tag": "", "image": "strap-midnight", "alt": "Blue-dial watch on a navy pebbled leather strap", "buyUrl": "checkout.html?item=midnight-grain" },
+        { "name": "Havana Box-Stitch", "material": "Brown shell cordovan", "price": "$340", "tag": "Limited", "image": "strap-havana", "alt": "Watch on a dark brown box-stitched leather strap", "buyUrl": "checkout.html?item=havana-box-stitch" }
+      ]
+    }
+  ]
+}
